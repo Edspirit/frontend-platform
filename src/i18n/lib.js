@@ -38,6 +38,7 @@ const rtlLocales = [
   'ar', // Arabic
   'he', // Hebrew
   'fa', // Farsi (not currently supported)
+  'fa-ir', // Farsi Iran
   'ur', // Urdu (not currently supported)
 ];
 
