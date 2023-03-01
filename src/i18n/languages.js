@@ -13,10 +13,14 @@ import { getPrimaryLanguageSubtag } from './lib';
  * been a while, go check and see if that's changed!
  */
 
-// LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/ar.json'));
+LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/ar.json'));
 LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/en.json'));
 LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/es.json'));
 LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/fr.json'));
+LANGUAGES.registerLocale(require("@cospired/i18n-iso-languages/langs/fa.json"));
+LANGUAGES.registerLocale(require("@cospired/i18n-iso-languages/langs/fa-IR.json"));
+LANGUAGES.registerLocale(require("@cospired/i18n-iso-languages/langs/fa_IR.json"));
+
 // LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/zh.json'));
 // LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/ca.json'));
 // LANGUAGES.registerLocale(require('@cospired/i18n-iso-languages/langs/he.json'));
